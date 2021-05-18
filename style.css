@@ -1,0 +1,41 @@
+body{
+	font-family: 'IBM Plex Mono', monospace;
+    margin: 0;
+    padding: 0;
+}
+.links{
+    color: black !important;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.carousel {
+    height: 500px;
+}
+
+.carousel .carousel-item {
+    width: 400px;
+
+}
+h1.small{
+	line-height: 20%;
+}
+
+
+#Name{
+	text-align: center;
+}
+
+#WD{
+	text-align: center;
+}
+
+#NavBar{
+	text-align: center;
+    background-color: #ffffff !important;
+    box-shadow: none !important;
+    padding-left: 30px;
+}

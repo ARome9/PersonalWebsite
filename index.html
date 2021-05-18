@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Alejandro Romero-Reyes</title>
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" integrity="sha512-UJfAaOlIRtdR+0P6C3KUoTDAxVTuy3lnSXLyLKlHYJlcSU8Juge/mjeaxDNMlw9LgeIotgz5FP8eUQPhX1q10A==" crossorigin="anonymous" />
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+
+	.carousel {
+		height: 500px;
+		align-content: center;
+	}
+	.carousel .carousel-item {
+		width: 400px;
+	}
+	</style>
+</head>
+<body>
+	<h1 class="small" id="Name">Alejandro Romero-Reyes</h1>
+	<h3 class="small" id="WD">Web Developer</h3>
+	<div>
+		<nav id="NavBar">
+			<a class="links" href>About Me</a>
+			<a class="links" href>Resume</a>
+			<a class="links" href>Projects</a>
+			<a class="links" href>GitHub</a>
+			<a class="links" href><Contact</a>
+		</nav>
+	</div>
+	
+	<div class="page">
+		<div class="carousel ">
+			<a class="carousel-item" href=""><img src="./images/1.jpg"></a>
+			<a class="carousel-item" href="#one!"><img src="./images/2.jpg"></a>
+			<a class="carousel-item" href="#one!"><img src="./images/3.jpg"></a>
+			<a class="carousel-item" href="#one!"><img src="./images/4.jpg"></a>
+			<a class="carousel-item" href="#one!"><img src="./images/5.jpg"></a>
+		</div>
+  	</div>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" integrity="sha512-NiWqa2rceHnN3Z5j6mSAvbwwg3tiwVNxiAQaaSMSXnRRDh5C2mk/+sKQRw8qjV1vN4nf8iK2a0b048PnHbyx+Q==" crossorigin="anonymous"></script>    
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.carousel').carousel({
+				indicators: true
+			});
+		});
+	</script>
+</body>
+</html>
