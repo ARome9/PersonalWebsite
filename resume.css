@@ -1,0 +1,15 @@
+.container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.backButton{
+    width: 100%;
+    text-align: center;
+}
+
+a:hover {
+    color: #41FF00;
+}
